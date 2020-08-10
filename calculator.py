@@ -42,7 +42,7 @@ while x < x_max:
 var_x = e_x2 - pow(e_x,2) # between alpha 4 and 8 computation is pretty accurate
 kurtosis_x = (e_x4 - 4 * e_x * e_x3 + 6 * pow(e_x,2) * e_x2 - 3 * pow(e_x,4))/(pow(var_x,2)) -3 # between alpha 4 and 8 computation is pretty accurate
 
-# Calculate E[x], Var[x] and Kur[x] using definitions for standard Pareto definition
+# Calculate E[x], Var[x] and Kur[x] using calculus definitions from Pareto distribution
 if alpha > 1:
     e_xcalc = (alpha * x_m)/(alpha-1)
 else:
