@@ -1,6 +1,6 @@
 # pareto-distribution-calculator
 Hobby statistics Python project that does the following:
-- Compute Expected value E[x], Variance Var[x] and Kurtosis Kur[x] of a fat tailed Pareto distribution
+- Compute Expected value E[x], Variance Var[x] and Kurtosis Kur[x] of a fat-tailed Pareto distribution
 - Calculate Expected value E[x], Variance Var[x] and Kurtosis Kur[x] using Pareto distribution's calculus definitions
 - Compare outcomes
 
