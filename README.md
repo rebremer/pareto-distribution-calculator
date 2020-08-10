@@ -4,7 +4,7 @@ Hobby statistics Python project that does the following:
 - Calculate Expected value E[x], Variance Var[x] and Kurtosis Kur[x] using Pareto distribution's calculus definitions
 - Compare outcomes
 
-Key learning in this project is as follows:
+Key learning of this project is as follows:
 
 - For alpha values close to 1, extremely large tail values shall be used to compute Pareto E[x] accurately. That is, the Pareto distribution is truly fat-tailed.
 
