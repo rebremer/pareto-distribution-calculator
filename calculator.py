@@ -4,6 +4,7 @@
 # https://wiki.socr.umich.edu/index.php/AP_Statistics_Curriculum_2007_Pareto
 # https://math.stackexchange.com/questions/2909207/continuous-pareto-distribution-intuition
 # http://www.eclecticon.info/index_htm_files/Probability%20&%20Statistics%20-%20Expectation%20Variance%20Skew%20Kurtosis.pdf
+# https://arxiv.org/abs/2001.10488
 
 # Parameters
 alpha = 5
