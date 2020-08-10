@@ -8,10 +8,10 @@
 
 # Parameters
 alpha = 5
-x_m = 1000
 x_max = pow(10,50) # Pareto distribution is really fat tailed for low values of alpha (close to one), so a large value shall be taken to compute E[x] accurately
 
 # Variables
+x_m = 1000
 x = x_m
 p_sum = 0
 e_x = 0
