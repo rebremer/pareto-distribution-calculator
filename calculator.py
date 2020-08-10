@@ -5,6 +5,7 @@
 # https://math.stackexchange.com/questions/2909207/continuous-pareto-distribution-intuition
 # http://www.eclecticon.info/index_htm_files/Probability%20&%20Statistics%20-%20Expectation%20Variance%20Skew%20Kurtosis.pdf
 # https://arxiv.org/abs/2001.10488
+# https://coffeeandjunk.com/mediocristan-extremistan/
 
 # Parameters
 alpha = 5
@@ -13,13 +14,12 @@ x_max = pow(10,50) # Pareto distribution is really fat tailed for low values of 
 # Variables
 x_m = 1000
 x = x_m
+iterator = 1
 p_sum = 0
 e_x = 0
 e_x2 = 0
 e_x3 = 0
 e_x4 = 0
-var_x = 0
-iterator = 1
 
 # Compute Expected Value E[x] and moments E[x^2], E[x^3] and E[x^4]
 while x < x_max:
