@@ -6,7 +6,7 @@ Hobby statistics Python project that does the following:
 
 Key learning in this project is as follows:
 
-- For alpha values close to 1, extremely large tail values shall be used to compute Pareto E[x] accurately. That is, Pareto distribution is truly fat-tailed.
+- For alpha values close to 1, extremely large tail values shall be used to compute Pareto E[x] accurately. That is, the Pareto distribution is truly fat-tailed.
 
 For more information on the Pareto distribution and its properties:
 
