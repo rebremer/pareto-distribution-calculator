@@ -9,7 +9,7 @@
 # Parameters
 alpha = 5
 x_m = 1000
-x_max = pow(10,50) # Pareto is distribution is really fat tailed for low values of alpha (close to one), so is large value shall be taken to compute E[x] accurately
+x_max = pow(10,50) # Pareto is distribution is really fat tailed for low values of alpha (close to one), so a large value shall be taken to compute E[x] accurately
 
 # Variables
 x = x_m
