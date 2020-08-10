@@ -25,7 +25,7 @@ iterator = 1
 while x < x_max:
 
     p_x = (alpha * pow(x_m,alpha))/(pow(x,alpha + 1))
-    p_sum += p_x
+    p_sum += p_x * iterator
     e_x += x * p_x * iterator
     e_x2 += pow(x,2) * p_x * iterator
     e_x3 += pow(x,3) * p_x * iterator
